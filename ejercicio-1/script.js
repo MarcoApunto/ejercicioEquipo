@@ -66,7 +66,7 @@ function contarPalabras() {
 	} else if (phrase == " ") {
 		alert("has insertado un espacio pillin");
 	} else {
-		alert("La frase contiene " + countSpacebar + 1 + " palabras.");
+		alert("La frase contiene " + (countSpacebar + 1) + " palabras.");
 	}
 }
 
