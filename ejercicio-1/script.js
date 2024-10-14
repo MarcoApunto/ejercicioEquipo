@@ -5,7 +5,7 @@
 */
 
 function igualadorNumeros() {
-	//Opcion 1: igualado de números
+	//Opcion 1: igualador de números
 	let n1 = parseInt(prompt("Introduzca un número: "));
 	let n2 = parseInt(prompt("Introduzca otro número: "));
 
@@ -38,10 +38,10 @@ function menu() {
 
 	switch (option) {
 		case 1:
-			alert(igualadorNumeros());
+			igualadorNumeros();
 			break;
 		case 2:
-			alert(igualadorChar());
+			igualadorChar();
 			break;
 		default:
 			alert("No has introducido una opción válida");
