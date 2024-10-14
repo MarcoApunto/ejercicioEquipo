@@ -34,16 +34,42 @@ function igualadorChar() {
 }
 
 function menu() {
-	let option = parseInt(prompt("Elija una de las opciones: \nOpción 1: igualado de números\nOpción 2: Igualador de char"));
+	let option = parseInt(prompt("Elija una de las opciones:\nOpción 1: igualado de números\nOpción 2: Igualador de char"));
 
 	switch (option) {
 		case 1:
-			alert(igualadorNumeros());
+			igualadorNumeros();
 			break;
 		case 2:
-			alert(igualadorChar());
+			igualadorChar();
 			break;
 		default:
 			alert("No has introducido una opción válida");
 	}
 }
+
+/*
+	Solicita una frase al usuario y contando los espacios que tiene, indica de cuántas palabras consta (debes presuponer que la frase tiene un único espacio entre palabras).
+*/
+
+function contarPalabras() {
+	let phrase = prompt("Introduzca una frase: ");
+	let countSpacebar = 0;
+
+	for (let i = 0; i < phrase.length - 1; i++) {
+		if (phrase[i] == " ") {
+			countSpacebar++;
+		}
+	}
+	if (phrase == "") {
+		alert("No has insertado ninguna palabra.");
+	} else if (phrase == " ") {
+		alert("has insertado un espacio pillin");
+	} else {
+		alert("La frase contiene " + countSpacebar + 1 + " palabras.");
+	}
+}
+
+/*
+	Realiza la tabla de la imagen con la misma información usando herramientas de DOM y JS, el body en HTML sólo puede tener la etiqueta script.
+*/
