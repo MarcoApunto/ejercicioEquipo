@@ -1,2 +1,2 @@
 # ejercicioEquipo
-Ejercicio grupal para Desarrollo Web - Campus Digital San Blas
+Ejercicio grupal compuesto por Marco Antonio, Osvaldo, Rolando y Ana María para Desarrollo Web - Campus Digital San Blas
