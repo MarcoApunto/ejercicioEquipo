@@ -73,3 +73,33 @@ function contarPalabras() {
 /*
 	Realiza la tabla de la imagen con la misma información usando herramientas de DOM y JS, el body en HTML sólo puede tener la etiqueta script.
 */
+
+/* function createTable() {
+
+	for (var j = 0; j < 2; j++) {
+		// Crea un elemento <td> y un nodo de texto, haz que el nodo de
+		// texto sea el contenido de <td>, ubica el elemento <td> al final
+		// de la hilera de la tabla
+		var celda = document.createElement("td");
+		var textoCelda = document.createTextNode("celda en la hilera " + ", columna " + j,
+		);
+	}
+	celda.appendChild(textoCelda);
+} 
+
+createTable();
+
+REFERENCIA:
+https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+
+*/
+
+function createTD(texto) {
+	let td = document.createElement("td");
+	let textoTD = document.createTextNode(texto);
+
+	td.appendChild(textoTD);
+	document.body.appendChild(td);
+}
+
+createTabla();
