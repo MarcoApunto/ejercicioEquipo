@@ -19,16 +19,14 @@ function createTable() {
 
 	// Añado un h3 en el body antes de table
 	let title = document.createElement("h3");
-	title.textContent = "TABLA CREADA CON JAVASCRIPT" ;
+	title.textContent = "TABLA CREADA CON JAVASCRIPT";
 
 	body.appendChild(title);
 
 	// Crea la fila de encabezados
 	let headerRow = document.createElement("tr");
-
 	// Array de encabezados
 	let headers = ["Nombre", "Precio (en euros)", "Descripción", "Calorías"];
-
 	// Crea los <th> para cada encabezado
 	for (let i = 0; i < headers.length; i++) {
 		let th = document.createElement("th");
@@ -40,7 +38,7 @@ function createTable() {
 
 	// Agrega la fila de encabezados a la tabla
 	table.appendChild(headerRow);
-	
+
 	// Almacena el objeto en una variable
 	let dataTable = containData();
 	// Determina el número de clumnas
