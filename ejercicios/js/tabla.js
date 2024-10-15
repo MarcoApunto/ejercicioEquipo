@@ -18,7 +18,7 @@ function createTable() {
 	table.style.margin = "auto";
 
 	// Añado un h2 en el body antes de table
-	let title = document.createElement("h2");
+	let title = document.createElement("h3");
 	title.textContent = "TABLA CREADA CON JAVASCRIPT" ;
 
 	body.appendChild(title);
