@@ -34,7 +34,7 @@ function igualadorChar() {
 }
 
 function menu() {
-	let option = parseInt(prompt("Elija una de las opciones:\nOpción 1: igualado de números\nOpción 2: Igualador de char"));
+	let option = parseInt(prompt("Elija una de las opciones:\nOpción 1: igualador de números\nOpción 2: igualador de char"));
 
 	switch (option) {
 		case 1:
