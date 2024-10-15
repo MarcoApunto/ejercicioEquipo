@@ -17,7 +17,7 @@ function createTable() {
 	table.style.border = "1px solid black";
 	table.style.margin = "auto";
 
-	// Añado un h2 en el body antes de table
+	// Añado un h3 en el body antes de table
 	let title = document.createElement("h3");
 	title.textContent = "TABLA CREADA CON JAVASCRIPT" ;
 
@@ -41,11 +41,11 @@ function createTable() {
 	// Agrega la fila de encabezados a la tabla
 	table.appendChild(headerRow);
 	
-	// Determina el número de filas basado en la longitud del th
-	let rowCount = headers.length;
 	// Almacena el objeto en una variable
 	let dataTable = containData();
-	
+	// Determina el número de clumnas
+	let rowCount = dataTable.names.length;
+
 	// Crea las filas de datos
 	for (let i = 0; i < rowCount; i++) {
 		let row = document.createElement("tr");
@@ -61,6 +61,7 @@ function createTable() {
 		// Agrega la fila a la tabla
 		table.appendChild(row);
 	}
+
 	// Agrega la tabla al cuerpo del documento
 	body.appendChild(table);
 }
