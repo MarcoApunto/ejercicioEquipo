@@ -9,7 +9,7 @@ function containData() {
 
 function createTable() {
 	// Obtener la referencia del elemento body
-	let body = document.getElementsByTagName("body")[0];
+	let body = document.body;
 	// Crea <table>
 	let table = document.createElement("table");
 	// Establece los estilos de la tabla
@@ -27,6 +27,7 @@ function createTable() {
 	let headerRow = document.createElement("tr");
 	// Array de encabezados
 	let headers = ["Nombre", "Precio (en euros)", "Descripción", "Calorías"];
+
 	// Crea los <th> para cada encabezado
 	for (let i = 0; i < headers.length; i++) {
 		let th = document.createElement("th");
