@@ -1,5 +1,5 @@
 # ejercicioEquipo
-Ejercicio grupal compuesto por Marco Antonio, Osvaldo, Rolando y [Ana María]([https://www.genome.gov/](https://github.com/AnaMariaVladPichiu)/) Ana María para Desarrollo Web - Campus Digital San Blas
+Ejercicio grupal compuesto por Marco Antonio, Osvaldo, Rolando y [Ana María](https://github.com/AnaMariaVladPichiu) Ana María para Desarrollo Web - Campus Digital San Blas
 
 ## ENUNCIADO
 
