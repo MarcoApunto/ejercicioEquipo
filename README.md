@@ -1,5 +1,5 @@
 # ejercicioEquipo
-Ejercicio grupal compuesto por Marco Antonio, Osvaldo, Rolando y [Ana María](https://github.com/AnaMariaVladPichiu) Ana María para Desarrollo Web - Campus Digital San Blas
+Ejercicio grupal compuesto por [Osvaldo Martínez](https://github.com/Osvaldjmr), [Rolando Cepeda](https://github.com/Rolando-Cepeda) y [Ana María](https://github.com/AnaMariaVladPichiu) y servidor, Marco Ferreira para Desarrollo Web - Campus Digital San Blas
 
 ## ENUNCIADO
 
